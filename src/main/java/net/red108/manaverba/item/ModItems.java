@@ -1,5 +1,8 @@
 package net.red108.manaverba.item;
 
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -10,9 +13,7 @@ public class ModItems {
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ManaVerbaMod.MODID);
 
-    public static final DeferredItem<Item> LONGAEVA_BRANCH =  ITEMS.register(
-            "longaeva_branch", () -> new Item(new Item.Properties())
-    );
+    public static final DeferredItem<Item> LONGAEVA_BRANCH =  ITEMS.registerItem("longaeva_branch", Item::new, new Item.Properties());
 
     /*
     public static final DeferredItem<Item> LONGAEVA_LOG = ITEMS.register(
