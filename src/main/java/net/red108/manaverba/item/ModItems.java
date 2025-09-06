@@ -13,7 +13,11 @@ public class ModItems {
 
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ManaVerbaMod.MODID);
 
-    public static final DeferredItem<Item> LONGAEVA_BRANCH =  ITEMS.registerItem("longaeva_branch", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> LONGAEVA_BRANCH =  ITEMS.registerItem(
+            "longaeva_branch",
+            Item::new,
+            new Item.Properties()
+    );
 
     /*
     public static final DeferredItem<Item> LONGAEVA_LOG = ITEMS.register(
