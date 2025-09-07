@@ -1,5 +1,7 @@
 package net.red108.manaverba.block;
 
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -21,9 +23,10 @@ public class ModBlocks {
     //all blocks
 
     public static final DeferredBlock<Block> SIGMORA_BLOCK = BLOCKS.register("sigmora_block",
-            () -> new Block(BlockBehaviour.Properties.of()
+            registryName -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f)
                     .requiresCorrectToolForDrops()
+                    .setId(ResourceKey.create(Registries.BLOCK, registryName))
 
             )
     );
