@@ -2,6 +2,7 @@ package net.red108.manaverba;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.red108.manaverba.block.ModBlocks;
 import net.red108.manaverba.item.ModItems;
 import org.slf4j.Logger;
 
@@ -61,6 +62,9 @@ public class ManaVerbaMod {
             event.accept(ModItems.RAW_SIGMORA);
             event.accept(ModItems.LIQUID_SIGMORA);
             event.accept(ModItems.SIGMORA);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.SIGMORA_BLOCK);
         }
     }
 
