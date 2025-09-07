@@ -3,5 +3,7 @@
   "item.manaverba108.glyphite_crystal": "Glyphite Crystal",
   "item.manaverba108.sigmora": "Sigmora",
   "item.manaverba108.raw_sigmora": "Raw Sigmora",
-  "item.manaverba108.liquid_sigmora": "Liquid Sigmora"
+  "item.manaverba108.liquid_sigmora": "Liquid Sigmora",
+
+  "block.manaverba108.sigmora_block": "Block of Sigmora"
 }
