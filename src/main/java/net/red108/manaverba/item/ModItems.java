@@ -18,6 +18,21 @@ public class ModItems {
             Item::new,
             new Item.Properties()
     );
+    public static final DeferredItem<Item> GLYPHITE_CRYSTAL =  ITEMS.registerItem(
+            "glyphite_crystal",
+            Item::new,
+            new Item.Properties()
+    );
+    public static final DeferredItem<Item> RAW_SIGMORA =  ITEMS.registerItem(
+            "raw_sigmora",
+            Item::new,
+            new Item.Properties()
+    );
+    public static final DeferredItem<Item> SIGMORA =  ITEMS.registerItem(
+            "sigmora",
+            Item::new,
+            new Item.Properties()
+    );
 
     /*
     public static final DeferredItem<Item> LONGAEVA_LOG = ITEMS.register(
