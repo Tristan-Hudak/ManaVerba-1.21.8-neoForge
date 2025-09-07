@@ -57,6 +57,10 @@ public class ManaVerbaMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.LONGAEVA_BRANCH);
+            event.accept(ModItems.GLYPHITE_CRYSTAL);
+            event.accept(ModItems.RAW_SIGMORA);
+            event.accept(ModItems.LIQUID_SIGMORA);
+            event.accept(ModItems.SIGMORA);
         }
     }
 
