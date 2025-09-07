@@ -33,6 +33,11 @@ public class ModItems {
             Item::new,
             new Item.Properties()
     );
+    public static final DeferredItem<Item> LIQUID_SIGMORA =  ITEMS.registerItem(
+            "liquid_sigmora",
+            Item::new,
+            new Item.Properties()
+    );
 
     /*
     public static final DeferredItem<Item> LONGAEVA_LOG = ITEMS.register(
