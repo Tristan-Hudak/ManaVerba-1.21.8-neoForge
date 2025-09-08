@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "manaverba108:block/deepslate_sigmora_ore"
+  }
+}

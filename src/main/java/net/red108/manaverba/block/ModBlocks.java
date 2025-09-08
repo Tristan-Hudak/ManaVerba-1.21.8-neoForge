@@ -26,7 +26,27 @@ public class ModBlocks {
     public static final BlockRegistryObject<Block> SIGMORA_BLOCK = registerBlockWithItem(
             "sigmora_block",
             Block::new,
-            BlockBehaviour.Properties.of()
+            BlockBehaviour.Properties.of().destroyTime(5.0f).explosionResistance(6.0f).requiresCorrectToolForDrops()
+    );
+    public static final BlockRegistryObject<Block> RAW_SIGMORA_BLOCK = registerBlockWithItem(
+            "raw_sigmora_block",
+            Block::new,
+            BlockBehaviour.Properties.of().destroyTime(5.0f).explosionResistance(3.0f).requiresCorrectToolForDrops()
+    );
+    public static final BlockRegistryObject<Block> SIGMORA_ORE = registerBlockWithItem(
+            "sigmora_ore",
+            Block::new,
+            BlockBehaviour.Properties.of().destroyTime(3.0f).explosionResistance(3.0f).requiresCorrectToolForDrops()
+    );
+    public static final BlockRegistryObject<Block> DEEPSLATE_SIGMORA_ORE = registerBlockWithItem(
+            "deepslate_sigmora_ore",
+            Block::new,
+            BlockBehaviour.Properties.of().destroyTime(4.5f).explosionResistance(6.0f).requiresCorrectToolForDrops()
+    );
+    public static final BlockRegistryObject<Block> GLYPHITE_BLOCK = registerBlockWithItem(
+            "glyphite_block",
+            Block::new,
+            BlockBehaviour.Properties.of().destroyTime(5.0f).explosionResistance(6.0f).requiresCorrectToolForDrops()
     );
 
     //helper class and method

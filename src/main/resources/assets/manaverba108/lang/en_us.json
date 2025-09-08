@@ -5,6 +5,15 @@
   "item.manaverba108.raw_sigmora": "Raw Sigmora",
   "item.manaverba108.liquid_sigmora": "Sigmora Nugget",
   "item.manaverba108.sigmora_block": "Block of Sigmora",
+  "item.manaverba108.raw_sigmora_block": "Block of Raw Sigmora",
+  "item.manaverba108.sigmora_ore": "Sigmora Ore",
+  "item.manaverba108.deepslate_sigmora_ore": "Deepslate Sigmora Ore",
+  "item.manaverba108.glyphite_block": "Block of Glyphite",
 
-  "block.manaverba108.sigmora_block": "Block of Sigmora"
+  "block.manaverba108.sigmora_block": "Block of Sigmora",
+  "block.manaverba108.raw_sigmora_block": "Block of Raw Sigmora",
+  "block.manaverba108.sigmora_ore": "Sigmora Ore",
+  "block.manaverba108.deepslate_sigmora_block": "Deepslate Sigmora Ore",
+  "block.manaverba108.glyphite_block": "Block of Glyphite"
+
 }
