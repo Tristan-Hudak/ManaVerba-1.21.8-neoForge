@@ -10,9 +10,8 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.red108.manaverba.ManaVerbaMod;
 import net.red108.manaverba.item.ModItems;
-
 import java.util.function.Function;
-import java.util.function.Supplier;
+
 
 public class ModBlocks {
 
