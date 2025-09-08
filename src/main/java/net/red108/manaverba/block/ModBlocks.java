@@ -12,6 +12,10 @@ import net.red108.manaverba.ManaVerbaMod;
 import net.red108.manaverba.item.ModItems;
 import java.util.function.Function;
 
+import static net.neoforged.neoforgespi.ILaunchContext.LOGGER;
+//import static com.mojang.text2speech.Narrator.LOGGER;
+
+
 
 public class ModBlocks {
 
@@ -39,6 +43,7 @@ public class ModBlocks {
     private static <T extends Block> BlockRegistryObject<T> registerBlockWithItem(String name, Function<BlockBehaviour.Properties, T> supplier, BlockBehaviour.Properties properties) {
         DeferredBlock<T> block = ModBlocks.BLOCKS.registerBlock(name, supplier, properties);
         DeferredItem<BlockItem> item = ModItems.ITEMS.registerItem(name, props -> new BlockItem(block.get(), props), new Item.Properties());
+        LOGGER.debug("Registering block: {}", name);
         return new BlockRegistryObject<>(block, item);
     }
 
