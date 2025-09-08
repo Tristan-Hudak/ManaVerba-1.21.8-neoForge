@@ -61,6 +61,10 @@ public class ManaVerbaMod {
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.SIGMORA_BLOCK.item.get());
+            event.accept(ModBlocks.RAW_SIGMORA_BLOCK.block.get());
+            event.accept(ModBlocks.SIGMORA_ORE.block.get());
+            event.accept(ModBlocks.DEEPSLATE_SIGMORA_ORE.block.get());
+            event.accept(ModBlocks.GLYPHITE_BLOCK.block.get());
         }
     }
 
