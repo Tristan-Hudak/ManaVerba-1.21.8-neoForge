@@ -9,11 +9,16 @@
   "item.manaverba108.sigmora_ore": "Sigmora Ore",
   "item.manaverba108.deepslate_sigmora_ore": "Deepslate Sigmora Ore",
   "item.manaverba108.glyphite_block": "Block of Glyphite",
+  "item.manaverba108.longaeva_log": "Longaeva Log",
+  "item.manaverba108.stripped_longaeva_log": "Stripped Longaeva Log",
+  "item.manaverba108.longaeva_leaves": "Longaeva Leaves",
 
   "block.manaverba108.sigmora_block": "Block of Sigmora",
   "block.manaverba108.raw_sigmora_block": "Block of Raw Sigmora",
   "block.manaverba108.sigmora_ore": "Sigmora Ore",
   "block.manaverba108.deepslate_sigmora_block": "Deepslate Sigmora Ore",
-  "block.manaverba108.glyphite_block": "Block of Glyphite"
-
+  "block.manaverba108.glyphite_block": "Block of Glyphite",
+  "block.manaverba108.longaeva_log": "Longaeva Log",
+  "block.manaverba108.stripped_longaeva_log": "Stripped Longaeva Log",
+  "block.manaverba108.longaeva_leaves": "Longaeva Leaves"
 }

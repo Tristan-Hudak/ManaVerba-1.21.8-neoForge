@@ -65,6 +65,10 @@ public class ManaVerbaMod {
             event.accept(ModBlocks.SIGMORA_ORE.block.get());
             event.accept(ModBlocks.DEEPSLATE_SIGMORA_ORE.block.get());
             event.accept(ModBlocks.GLYPHITE_BLOCK.block.get());
+            event.accept(ModBlocks.LONGAEVA_LEAVES.block.get());
+            event.accept(ModBlocks.LONGAEVA_LOG.block.get());
+            event.accept(ModBlocks.STRIPPED_LONGAEVA_LOG.block.get());
+
         }
     }
 

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "manaverba108:block/stripped_longaeva_log_top",
+    "side": "manaverba108:block/stripped_longaeva_log"
+  }
+}

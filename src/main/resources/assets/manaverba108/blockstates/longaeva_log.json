@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "manaverba108:block/longaeva_log" },
+    "axis=z": { "model": "manaverba108:block/longaeva_log", "x": 90 },
+    "axis=x": { "model": "manaverba108:block/longaeva_log", "x": 90, "y": 90 }
+  }
+}

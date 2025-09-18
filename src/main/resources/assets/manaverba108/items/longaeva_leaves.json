@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "manaverba108:block/longaeva_leaves"
+  },
+  "tints": {
+    "layer0": "foliage"
+  }
+}

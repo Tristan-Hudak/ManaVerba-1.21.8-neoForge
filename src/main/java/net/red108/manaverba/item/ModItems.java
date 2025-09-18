@@ -39,12 +39,6 @@ public class ModItems {
             new Item.Properties()
     );
 
-    /*
-    public static final DeferredItem<Item> LONGAEVA_LOG = ITEMS.register(
-            "longaeva_log", () -> new Item(new Item.Properties())
-    );
-    */
-
     public static void register(IEventBus bus) {
         ITEMS.register(bus);
     }

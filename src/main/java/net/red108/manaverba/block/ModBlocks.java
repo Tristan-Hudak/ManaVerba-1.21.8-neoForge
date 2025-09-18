@@ -48,6 +48,21 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.of().destroyTime(5.0f).explosionResistance(6.0f).requiresCorrectToolForDrops()
     );
+    public static final BlockRegistryObject<Block> LONGAEVA_LOG = registerBlockWithItem(
+            "longaeva_log",
+            Block::new,
+            BlockBehaviour.Properties.of().destroyTime(5.0f).explosionResistance(6.0f).requiresCorrectToolForDrops()
+    );
+    public static final BlockRegistryObject<Block> STRIPPED_LONGAEVA_LOG = registerBlockWithItem(
+            "stripped_longaeva_log",
+            Block::new,
+            BlockBehaviour.Properties.of().destroyTime(5.0f).explosionResistance(6.0f).requiresCorrectToolForDrops()
+    );
+    public static final BlockRegistryObject<Block> LONGAEVA_LEAVES = registerBlockWithItem(
+            "longaeva_leaves",
+            Block::new,
+            BlockBehaviour.Properties.of().destroyTime(5.0f).explosionResistance(6.0f).requiresCorrectToolForDrops()
+    );
 
     //helper class and method
     public static class BlockRegistryObject<T extends Block> {
