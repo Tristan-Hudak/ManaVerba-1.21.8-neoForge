@@ -3,6 +3,9 @@ package net.red108.manaverba.block;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.LeavesBlock;
+import net.minecraft.world.level.block.RotatedPillarBlock;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -50,18 +53,25 @@ public class ModBlocks {
     );
     public static final BlockRegistryObject<Block> LONGAEVA_LOG = registerBlockWithItem(
             "longaeva_log",
-            Block::new,
+            RotatedPillarBlock::new,
             BlockBehaviour.Properties.of().destroyTime(5.0f).explosionResistance(6.0f).requiresCorrectToolForDrops()
     );
     public static final BlockRegistryObject<Block> STRIPPED_LONGAEVA_LOG = registerBlockWithItem(
             "stripped_longaeva_log",
-            Block::new,
+            RotatedPillarBlock::new,
             BlockBehaviour.Properties.of().destroyTime(5.0f).explosionResistance(6.0f).requiresCorrectToolForDrops()
     );
     public static final BlockRegistryObject<Block> LONGAEVA_LEAVES = registerBlockWithItem(
             "longaeva_leaves",
-            Block::new,
-            BlockBehaviour.Properties.of().destroyTime(5.0f).explosionResistance(6.0f).requiresCorrectToolForDrops()
+            LongaevaLeavesBlock::new,
+            BlockBehaviour.Properties.of()
+                    .destroyTime(5.0f)
+                    .explosionResistance(6.0f)
+                    .requiresCorrectToolForDrops()
+                    .noOcclusion()
+                    .isSuffocating(((state, level, pos) -> false))
+                    .isViewBlocking(((state, level, pos) -> false))
+                    .sound(SoundType.GRASS)
     );
 
     //helper class and method
